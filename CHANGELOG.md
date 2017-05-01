@@ -20,6 +20,43 @@ All Notable changes to `Backpack CRUD` will be documented in this file
 - Nothing
 
 
+## [3.2.11] - 2017-04-21
+
+### Removed
+- Backpack\CRUD no longer loads translations, as Backpack\Base does it for him.
+
+## [3.2.10] - 2017-04-21
+
+### Added
+- prefix feature to the image field;
+
+### Fixed
+- select_multiple has allows_null option;
+- details_row for AjaxDataTables;
+
+## [3.2.9] - 2017-04-20
+
+### Added
+- email column type;
+
+### Fixed
+- fewer ajax requests when using detailsRow;
+- redirect back to the same entry - fixed by #612;
+- use "admin" as default elfinder prefix;
+- datepicker error fixed by [Pavol Tanuška](https://github.com/pavoltanuska);
+- simplemde field also triggered ckeditor when place before it, because of an extra class;
+- details row column can be clicked entirely (thanks to [votintsev](https://github.com/votintsev));
+- simpleMDE bug fixes and features #507 (thanks to [MarcosBL](https://github.com/MarcosBL));
+- allow for dot notation when specifying the label of a reordered item (thanks to [Adam Kelsven](https://github.com/a2thek26));
+
+
+## [3.2.8] - 2017-04-03
+
+### Added
+- fixed typo in saveAction functionality;
+- checklist field had hardcoded primary key names;
+- french translation for buttons;
+
 ## [3.2.7] - 2017-03-16
 
 ### Added
