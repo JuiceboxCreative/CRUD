@@ -115,7 +115,7 @@ trait SaveActions
      * Otherwise get the list all crud route.
      * @return string the return url.
      */
-     private function getReturnUrl()
+     protected function getReturnUrl()
      {
          if (!isset($_SERVER['HTTP_REFERER']) || !isset($_SERVER['HTTP_HOST'])) {
              return $this->crud->route;
