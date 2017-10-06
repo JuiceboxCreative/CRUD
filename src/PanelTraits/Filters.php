@@ -161,6 +161,11 @@ trait Filters
                 return true;
                 break;
 
+            # Custom Landguide Route
+            case url($this->route.'/missing-data'):
+                return true;
+                break;
+
             default:
                 return false;
                 break;
